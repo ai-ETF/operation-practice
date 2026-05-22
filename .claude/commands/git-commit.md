@@ -2,6 +2,8 @@ Analyze the current git changes and generate a well-formatted commit message, th
 
 ## Steps
 
+0. **Ensure git environment is working.** Run `git status` first. If it fails with a "dubious ownership" error (common on WSL paths), run `git config --global --add safe.directory` with the repo path shown in the error message, then retry. All subsequent git commands must be executed from the project root directory (the repo root containing `.git/`).
+
 1. Run `git status` and `git diff` to see all unstaged changes, and `git diff --cached` for staged changes.
 2. If nothing is staged, stage all changed files with `git add`. But exclude files that should not be committed (e.g., `.env`, secrets, credentials, large binary files).
 3. Analyze the changes and generate a commit message following the Conventional Commits format:
