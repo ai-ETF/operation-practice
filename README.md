@@ -54,7 +54,9 @@ git push -u origin feature/你的功能名
 
 1. 打开 GitHub 仓库页面：`https://github.com/ai-ETF/operation-practice`
 2. 点击 **Pull requests** 页面，点击 **New pull request**
+![alt text](image.png)
 3. **base 选择 `dev`**，compare 选择你的功能分支
+![alt text](image-1.png)
 4. 填写标题和说明，点击 **Create pull request**
 5. 等待队友审核通过后合并
 
