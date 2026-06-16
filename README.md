@@ -65,6 +65,7 @@ git push -u origin feature/你的功能名 # 将本地功能分支推送到远�
 
 1. 打开 GitHub 仓库页面：`https://github.com/ai-ETF/operation-practice`
 2. 点击 **Pull requests** 页面，点击 **New pull request**
+- 注意要切换到自己刚刚提交的分支，才能看到该按钮
 ![alt text](image.png)
 3. **base 选择 `dev`**，compare 选择你的功能分支
 ![alt text](image-1.png)
